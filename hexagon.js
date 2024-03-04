@@ -4,7 +4,7 @@ function ShapeHexagon(shape_size, shard_amt){
 					isStatic: false,
 					density: 0.04,
 					friction: 0.1,
-					frictionAir: 0.00001,
+					frictionAir: 0.01,
 					restitution: 0.2,
 					inertia: Infinity,
 					shsz: shape_size,
